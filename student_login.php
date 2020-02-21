@@ -34,8 +34,6 @@ if (!empty($_POST)){
 
 <!DOCTYPE HTML>
 <head>
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <title>CS 4342 Test Login</title>
 </head>
 <body>

@@ -12,8 +12,6 @@ require_once('config.php');
 
 <!DOCTYPE HTML>
 <head>
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">  
 <title>CS4342 Test Sign Up</title>
 </head>
 <body>
