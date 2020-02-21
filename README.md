@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://www.utep.edu/Images/utep%20logo.png" alt="UTEP logo" width="200">
+  <img src="https://image.flaticon.com/icons/svg/178/178389.svg" alt="UTEP logo" width="200">
   <br>
   CS 4342 Database Management Starter Code
   <br>
