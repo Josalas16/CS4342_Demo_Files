@@ -12,8 +12,6 @@ require_once('config.php');
 
 <!DOCTYPE HTML>
 <head>
-<link rel="stylesheet" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">  
 <title>CS4342 Test Sign Up</title>
 </head>
 <body>
@@ -25,7 +23,7 @@ Middle Name: <input type="text" name="middle_name"><br><br>
 Last Name: <input type="text" name="last_name"><br><br>
 
 username: <input type="text" name="username"><br><br>
-password: <input type="text" name="password"><br><br>
+password: <input type="password" name="password"><br><br>
 
 <input name='Submit' type="submit" value="Create">
 </form>
@@ -46,7 +44,7 @@ if (isset($_POST['Submit'])){
     $password = isset($_POST['password']) ? $_POST['password'] : " ";
 
     //insert to User table;
-    $queryUser  = "INSERT INTO Student (U_username, U_password, U_first, U_middle, U_last,)
+    $queryUser  = "INSERT INTO Student (U_username, U_password, U_first, U_middle, U_last)
                 VALUES ('".$username."', '".$password."', '".$firstName."', '".$middleName."', '".$lastName."');";
     if ($conn->query($queryUser) === TRUE) {
        // echo "New record created successfully";
